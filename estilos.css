@@ -1,0 +1,58 @@
+body        { margin: 0px; font-family: Verdana, sans-serif; font-size: 14px; line-height: 24px; }
+img         { width: 100%; }
+#corpo      { width: 100%; }
+#corpo1      { width: 90%; margin: auto; }
+
+#banner, #texto,  #galeria, #frases { margin: 0px 0px 30px 0px; }
+#banner img { width: 100%; }    
+#frases     { }
+
+.equipa_foto { border-radius: 50%; }
+#equipa img { max-width: 300px; }
+#seta_esq, #seta_dir   { float: left; width: 5%; max-width:40px; }
+#seta_dir   { float: right; }
+
+#s_esq, #s_dir { cursor: pointer; }
+
+#login      { width: 400px; margin: 30px auto;   }
+
+#fundo      { clear: both; padding: 30px 10px; text-align: center; font-style: italic; }
+
+.linha      { border-bottom: gray 1px solid; }
+.limite     { border: rgb(97, 96, 96) 1px solid; overflow: hidden; }
+
+.c2         { float: left; width: 50%; }
+.c4         { float: left; width: 25%; }
+.c3         { float: left; width: 30%; }
+
+.oculto     { display: none; }
+
+.p10        { padding: 10px; }
+.p30        { padding: 30px; }
+.p50        { padding: 50px; }
+
+.t22        { font-size: 22px; line-height: 42px; font-style: italic ; }
+
+.limpar     { clear: both; }
+h1, h2      { font-size: 26px; font-weight: normal; color: crimson; }
+h2      { font-size: 20px; }
+
+.c { text-align: center; }
+
+input, textarea { width: 95%; margin: 15px 0px; padding: 10px; border: none; border-bottom: black 1px solid; }
+
+#enviar { width: 100px; border: black 1px solid; margin-top: 20px; }
+
+.creme { background-color: rgb(243, 198, 144); }
+
+input, textarea, select { width: 95%; margin: 5px; border:gray 1px solid; padding: 5px;  }
+textarea, select        { width: 95%; resize: none; border:gray 1px solid; }
+textarea    { height: auto; } 
+
+.botao      { max-width: 200px; }
+
+table       { width: 95%; margin: auto; }
+table, td   { border-collapse: collapse; }
+table, th, td { border: gray 1px solid;  }
+th          { padding: 10px; }
+td          { padding: 2px 0px; overflow: hidden; }
